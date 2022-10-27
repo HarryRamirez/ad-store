@@ -1,1 +1,17 @@
-<p>login works!</p>
+
+<div class="login-container">
+  <div class="login">
+    <h1>Login</h1>
+  <form [formGroup]="formLogin" (submit)="send()" action="">
+    <label for="">Email</label><br>
+    <input type="email" formControlName="email" placeholder="email"><br><br>
+    <tr></tr>
+    <label for="">Password</label><br>
+    <input type="password" formControlName="password" placeholder="password">
+
+    <button class="btn">LOGIN</button><br>
+  </form>
+
+  <a href="" routerLink="/register">Sign Up</a>
+</div>
+</div>

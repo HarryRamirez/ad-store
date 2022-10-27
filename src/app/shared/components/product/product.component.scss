@@ -1,9 +1,36 @@
 p, h2 {
   margin: 0;
+  font-weight: bolder;
+}
+.detalle{
+  display: flex;
+  margin-top: 6px;
+}
+h2{
+  font-size: 25px;
 }
 .title {
   font-weight: bold;
 }
 .category {
   font-style: italic;
+}
+
+.add-cart{
+  margin-left: 100px;
+  cursor: pointer;
+
+}
+
+.ver-detalle{
+  width:97px;
+  height: 27px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #0C0213;
+  a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+  }
 }

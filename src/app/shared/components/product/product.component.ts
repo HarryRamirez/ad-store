@@ -15,7 +15,7 @@ export class ProductComponent {
     images: [],
     title: '',
     category: {
-      id: -1,
+      id: 0,
       name: '',
     },
     description: ''

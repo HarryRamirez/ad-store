@@ -4,9 +4,11 @@
     [img]="product.images[0]"
   ></app-img>
 </a>
-<h2 class="title">{{ product.price | currency }}</h2>
+<h2 class="title">{{ product.price | currency }}</h2><br>
 <p>{{ product.title }}</p>
 <p class="category">{{ product.category?.name }}</p>
 <!-- <button (click)="onShowDetail()">Ver detalle</button> -->
-<a routerLink="." [queryParams]="{ product: product.id }">Ver detalle</a>
-<button (click)="onAddToCart()">Add cart</button>
+<div class="detalle">
+<div class="ver-detalle"><a [routerLink]="['/product', product.id]" [queryParams]="{ product: product.id}">Ver detalle</a></div>
+<img class="add-cart" (click)="onAddToCart()" src="./assets/svg/icon_shopping_cart.svg" alt="">
+</div>

@@ -7,12 +7,15 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     .gallery {
+      width: 50%;
+      height: 400px;
       overflow: hidden;
-      width: 100%;
+      // width: 100%;
+      min-width: 500px;
     }
     h2,
     h1 {
-      margin-bottom: 5px;
+      margin-bottom: 15px;
       font-weight: bold;
       font-size: 2em;
     }
@@ -20,4 +23,23 @@
       font-size: 1.5em;
     }
   }
+}
+button{
+  width: 67px;
+  height: 30px;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  border: none;
+  color: white;
+  background-color: #0C0213;
+}
+
+
+@media screen and (min-width: 20em) and (max-width: 49.6em){
+.detail{
+  display: block;
+}
+.text{
+display: block;
+}
 }

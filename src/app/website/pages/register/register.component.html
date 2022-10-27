@@ -1,1 +1,27 @@
-<p>register works!</p>
+
+<div class="register-container">
+  <div class="register">
+    <h1>Sign Up</h1>
+  <form  [formGroup]="formSignUp" (submit)="send()" action="">
+
+    <label for="">Email</label><br>
+    <input type="email" formControlName="email" placeholder="email"><br><br>
+
+    <label for="">name</label><br>
+    <input type="text" formControlName="name"  placeholder="name"><br><br>
+
+    <tr></tr>
+    <label for="">Password</label><br>
+    <input type="password" formControlName="password" placeholder="password"><br><br>
+
+    <label for="">Role</label><br>
+    <select formControlName="role" id="">
+      <option value="customer">customer</option>
+      <option value="admin">admin</option>
+    </select><br>
+
+    <button class="btn" >SIGN UP</button><br>
+  </form>
+
+</div>
+</div>

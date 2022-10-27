@@ -1,0 +1,40 @@
+.register-container{
+  display: flex;
+  justify-content: center;
+  }
+  .register{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    background: #0C0213;
+  }
+  form{
+  margin-top: 20px;
+  margin-left: 25px;
+  }
+  input{
+    width: 90%;
+    height: 30px;
+  }
+  h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    color: #f7f8fa;
+  }
+  label{
+    color: #f7f8fa;
+  }
+  .btn{
+    width: 120px;
+    height: 35px;
+    background: #f7f8fa;
+    margin-top: 7px;
+    margin-left: 97px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+  }

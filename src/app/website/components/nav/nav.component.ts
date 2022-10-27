@@ -41,12 +41,12 @@ export class NavComponent implements OnInit {
     this.activeMenu = !this.activeMenu;
   }
 
-  login() {
-    this.authService.loginAndGet('john@mail.com', 'changeme')
-    .subscribe(() => {
-      this.router.navigate(['/profile']);
-    });
-  }
+  // login() {
+  //   this.authService.loginAndGet('john@mail.com', 'changeme')
+  //   .subscribe(() => {
+  //     this.router.navigate(['/profile']);
+  //   });
+  // }
 
   getAllCategories() {
     this.categoriesService.getAll()
