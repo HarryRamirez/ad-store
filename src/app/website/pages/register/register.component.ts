@@ -3,7 +3,6 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { UsersService } from 'src/app/services/users.service';
 
-import { OnExit } from './../../../guards/exit.guard';
 
 @Component({
   selector: 'app-register',
@@ -11,7 +10,7 @@ import { OnExit } from './../../../guards/exit.guard';
   styleUrls: ['./register.component.scss'],
 })
 export class RegisterComponent implements  OnInit {
-  
+
   formSignUp!: FormGroup;
 
   constructor(
