@@ -37,9 +37,12 @@ button{
 
 @media screen and (min-width: 20em) and (max-width: 49.6em){
 .detail{
+  position: relative;
   display: block;
 }
 .text{
+position: absolute;
+margin-top: 427px;
 display: block;
 }
 }
